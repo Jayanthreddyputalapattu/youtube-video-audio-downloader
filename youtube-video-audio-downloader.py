@@ -83,10 +83,10 @@ ytdchoices = ttk.Combobox(root,values=choices)
 ytdchoices.grid()
 
 #donwload btn
-downloadbtn = Button(root,text="Donwload",width=10,bg="red",fg="white",command=DownloadVideo)
+downloadbtn = Button(root,text="Download",width=10,bg="red",fg="white",command=DownloadVideo)
 downloadbtn.grid()
 
 #developer Label
-developerlabel = Label(root,text="Dream Developers",font=("jost",15))
+developerlabel = Label(root,text="made by jayanthreddyputalapattu",font=("jost",15))
 developerlabel.grid()
 root.mainloop()
